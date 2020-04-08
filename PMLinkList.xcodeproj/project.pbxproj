@@ -16,6 +16,8 @@
 		BCB0CF82243DCC6C004A1849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CF81243DCC6C004A1849 /* main.m */; };
 		BCB0CF8C243DCC6C004A1849 /* PMLinkListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CF8B243DCC6C004A1849 /* PMLinkListTests.m */; };
 		BCB0CF97243DCC6C004A1849 /* PMLinkListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CF96243DCC6C004A1849 /* PMLinkListUITests.m */; };
+		BCB0CFA6243DCC7F004A1849 /* PMNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CFA5243DCC7F004A1849 /* PMNode.m */; };
+		BCB0CFA9243DCD78004A1849 /* PMLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CFA8243DCD78004A1849 /* PMLinkList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		BCB0CF92243DCC6C004A1849 /* PMLinkListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMLinkListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB0CF96243DCC6C004A1849 /* PMLinkListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMLinkListUITests.m; sourceTree = "<group>"; };
 		BCB0CF98243DCC6C004A1849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB0CFA4243DCC7F004A1849 /* PMNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMNode.h; sourceTree = "<group>"; };
+		BCB0CFA5243DCC7F004A1849 /* PMNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMNode.m; sourceTree = "<group>"; };
+		BCB0CFA7243DCD78004A1849 /* PMLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMLinkList.h; sourceTree = "<group>"; };
+		BCB0CFA8243DCD78004A1849 /* PMLinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMLinkList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 		BCB0CF6E243DCC64004A1849 /* PMLinkList */ = {
 			isa = PBXGroup;
 			children = (
+				BCB0CFA4243DCC7F004A1849 /* PMNode.h */,
+				BCB0CFA5243DCC7F004A1849 /* PMNode.m */,
 				BCB0CF6F243DCC64004A1849 /* AppDelegate.h */,
 				BCB0CF70243DCC64004A1849 /* AppDelegate.m */,
 				BCB0CF72243DCC64004A1849 /* SceneDelegate.h */,
@@ -115,6 +123,8 @@
 				BCB0CF7D243DCC6C004A1849 /* LaunchScreen.storyboard */,
 				BCB0CF80243DCC6C004A1849 /* Info.plist */,
 				BCB0CF81243DCC6C004A1849 /* main.m */,
+				BCB0CFA7243DCD78004A1849 /* PMLinkList.h */,
+				BCB0CFA8243DCD78004A1849 /* PMLinkList.m */,
 			);
 			path = PMLinkList;
 			sourceTree = "<group>";
@@ -269,8 +279,10 @@
 			files = (
 				BCB0CF77243DCC64004A1849 /* ViewController.m in Sources */,
 				BCB0CF71243DCC64004A1849 /* AppDelegate.m in Sources */,
+				BCB0CFA9243DCD78004A1849 /* PMLinkList.m in Sources */,
 				BCB0CF82243DCC6C004A1849 /* main.m in Sources */,
 				BCB0CF74243DCC64004A1849 /* SceneDelegate.m in Sources */,
+				BCB0CFA6243DCC7F004A1849 /* PMNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
