@@ -18,6 +18,7 @@
 		BCB0CF97243DCC6C004A1849 /* PMLinkListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CF96243DCC6C004A1849 /* PMLinkListUITests.m */; };
 		BCB0CFA6243DCC7F004A1849 /* PMNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CFA5243DCC7F004A1849 /* PMNode.m */; };
 		BCB0CFA9243DCD78004A1849 /* PMLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CFA8243DCD78004A1849 /* PMLinkList.m */; };
+		BCB0CFF3243EF4F5004A1849 /* PMSingleCycleList.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0CFF2243EF4F5004A1849 /* PMSingleCycleList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		BCB0CFA5243DCC7F004A1849 /* PMNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMNode.m; sourceTree = "<group>"; };
 		BCB0CFA7243DCD78004A1849 /* PMLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMLinkList.h; sourceTree = "<group>"; };
 		BCB0CFA8243DCD78004A1849 /* PMLinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMLinkList.m; sourceTree = "<group>"; };
+		BCB0CFF1243EF4F5004A1849 /* PMSingleCycleList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMSingleCycleList.h; sourceTree = "<group>"; };
+		BCB0CFF2243EF4F5004A1849 /* PMSingleCycleList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMSingleCycleList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				BCB0CF81243DCC6C004A1849 /* main.m */,
 				BCB0CFA7243DCD78004A1849 /* PMLinkList.h */,
 				BCB0CFA8243DCD78004A1849 /* PMLinkList.m */,
+				BCB0CFF1243EF4F5004A1849 /* PMSingleCycleList.h */,
+				BCB0CFF2243EF4F5004A1849 /* PMSingleCycleList.m */,
 			);
 			path = PMLinkList;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB0CF77243DCC64004A1849 /* ViewController.m in Sources */,
+				BCB0CFF3243EF4F5004A1849 /* PMSingleCycleList.m in Sources */,
 				BCB0CF71243DCC64004A1849 /* AppDelegate.m in Sources */,
 				BCB0CFA9243DCD78004A1849 /* PMLinkList.m in Sources */,
 				BCB0CF82243DCC6C004A1849 /* main.m in Sources */,

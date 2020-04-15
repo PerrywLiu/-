@@ -39,6 +39,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param index 索引
 - (id)objectAtIndex:(NSUInteger)index;
 
+/// 翻转链表
+- (PMNode *)reversalLink;
+
 /// 返回节点数量
 - (NSUInteger)countOfNode;
 

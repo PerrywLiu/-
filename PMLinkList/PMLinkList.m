@@ -23,8 +23,8 @@
 {
     self = [super init];
     if (self) {
-        _size = 0;
-        first = [[PMNode alloc]init];
+//        _size = 0;
+//        first = [[PMNode alloc]init];
     }
     return self;
 }
@@ -86,7 +86,7 @@
 {
     PMNode *node = first;
     if (index == 0) {
-        first = first.next;        
+        first = first.next;
     }
     else
     {
@@ -117,6 +117,25 @@
         node = node.next;
     }
     printf("\n");
+}
+
+- (PMNode *)reversalLink
+{
+    return [self reversalLink:first];
+}
+
+- (PMNode *)reversalLink:(PMNode *)head
+{
+    PMNode *newHead = nil;
+    PMNode *node = first;
+    while (head != nil) {
+        node = head;
+        head = node.next;
+        
+        node.next = newHead;
+        newHead = node;
+    }
+    return newHead;
 }
 
 #pragma mark - private Method
